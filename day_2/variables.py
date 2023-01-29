@@ -42,12 +42,16 @@ remainder = num_one % num_two
 exp = num_one ** num_two
 floor_division = num_one // num_two
 
-area_of_circle = 
+# no.5
+radius = float(input('Radius of the circle'))
+pi = 3.141592653589793
+area_of_circle = pi* radius
+circum_of_circle = 2*pi * radius
 
 
-
-first_name = input('What is your name: ')
+first_name = input('What is your first name: ')
+last_name = input('What is your last name: ')
+country = input('Which country are you from: ')
 age = input('How old are you? ')
 
-print(first_name)
-print(age)
+help('keyword')

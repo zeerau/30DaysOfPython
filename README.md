@@ -1,0 +1,1 @@
+# arewa data science 30 Days Of Python exercise repo

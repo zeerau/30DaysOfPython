@@ -85,7 +85,7 @@ def unique_random_numbers():
     unique_numbers = random.sample(range(10), 7)
     return unique_numbers
 
-    input_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+input_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(shuffle_list(input_list)) # [10, 7, 4, 1, 5, 9, 6] (for example)
 
 print(unique_random_numbers()) # [6, 4, 3, 1, 0, 9, 8] (for example)

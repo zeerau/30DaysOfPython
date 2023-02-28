@@ -57,6 +57,6 @@ def most_frequent_words(text, n=3):
 
     sentence = '''%I $am@% a %tea@cher%, &and& I lo%#ve %tea@ching%;. There $is nothing; &as& mo@re rewarding as educa@ting &and& @emp%o@wering peo@ple. ;I found tea@ching m%o@re interesting tha@n any other %jo@bs. %Do@es thi%s mo@tivate yo@u to be a tea@cher!?'''
 
-cleaned_text = clean_text(sentence)
+    cleaned_text = clean_text(sentence)
 print(cleaned_text)
 print(most_frequent_words(cleaned_text))
